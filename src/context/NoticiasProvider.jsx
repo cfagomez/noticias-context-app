@@ -32,7 +32,7 @@ const NoticiasProvider = ({children}) => {
   }
 
   return (
-    <NoticiasContext.Provider value={{categoria, handleChangeCategoria}}>
+    <NoticiasContext.Provider value={{categoria, handleChangeCategoria, noticias}}>
         {children}
     </NoticiasContext.Provider>
   )
